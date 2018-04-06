@@ -1,3 +1,5 @@
+/* Ignores */
 node_modules/
 credential.js
 credentials.json
+
