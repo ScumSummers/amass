@@ -16,7 +16,7 @@ function getData(auth) {
     if (rows.length === 0) {
       console.log('No data found.');
     } else {
-      for (var i = 0; i &lt; rows.length; i++) {
+      for (var i = 0; i < rows.length; i++) {
         var row = rows[i];
         console.log(row.join(", "));
       }
